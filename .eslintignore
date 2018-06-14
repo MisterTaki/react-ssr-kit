@@ -1,0 +1,8 @@
+# http://eslint.cn/docs/user-guide/configuring#ignoring-files-and-directories
+
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+
+/config/*
+/webpack/*
+/scripts/*
+/mock/*

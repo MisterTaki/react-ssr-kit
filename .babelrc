@@ -1,0 +1,32 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 4 versions", "not ie < 9"]
+        }
+      }
+    ],
+    "@babel/preset-react",
+    [
+      "@babel/preset-stage-0",
+      {
+        "decoratorsLegacy": true
+      }
+    ]
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "lib"
+      }
+    ]
+  ]
+}
